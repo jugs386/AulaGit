@@ -11,8 +11,10 @@
 	</body>
 </html>
 <?php
+
 $numero1 = str_replace(",",".",$_POST['numero1']);
 $numero2 = str_replace(",",".",$_POST['numero2']);
 $soma = $numero1 + $numero2;
 echo str_replace(".",",",$soma);
+
 ?>
